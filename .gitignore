@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+env/
+
+# Conda
+*.conda
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
