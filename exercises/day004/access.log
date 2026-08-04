@@ -1,0 +1,7 @@
+2026-08-04 INFO user=alice action=login status=200
+2026-08-04 ERROR user=bob action=upload status=500
+2026-08-04 INFO user=alice action=search status=200
+2026-08-04 WARN user=charlie action=login status=401
+2026-08-04 ERROR user=alice action=chat status=503
+2026-08-04 INFO user=bob action=search status=200
+2026-08-04 INFO user=alice action=login status=200

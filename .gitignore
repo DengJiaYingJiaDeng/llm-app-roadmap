@@ -16,3 +16,7 @@ env/
 .DS_Store
 
 .env
+# Runtime logs and process files
+*.log
+*.pid
+!exercises/day004/access.log
