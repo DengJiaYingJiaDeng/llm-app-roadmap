@@ -1,0 +1,6 @@
+column,dtype,missing_count,missing_rate,unique_count
+user_id,str,0,0.0,6
+name,str,0,0.0,6
+age,Int64,3,50.0,3
+city,str,0,0.0,5
+score,float64,1,16.666666666666664,5

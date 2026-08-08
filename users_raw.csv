@@ -1,0 +1,8 @@
+user_id,name,age,city,score
+101, Alice ,23,Shanghai,88.5
+102,Bob,31,beijing,92.0
+103,charlie,27,Shanghai ,76.5
+103,charlie,27,Shanghai ,76.5
+105,,,Shenzhen,
+106,EVE ,unknown,,90.5
+107, frank,29,BEIJING,81.0

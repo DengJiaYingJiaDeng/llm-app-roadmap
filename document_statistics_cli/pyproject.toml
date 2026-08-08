@@ -1,21 +1,31 @@
+# 构建工具配置
 [build-system]
-requires = [
-    "setuptools>=61"
-]
+
+# setuptools 是 Python 常见打包工具
+requires = ["setuptools>=61"]
+
 build-backend = "setuptools.build_meta"
 
 
-[tool.setuptools.packages.find]
-include = ["doc_stats*"]        # 只打包 doc_stats 及其子包（如果有）
-# exclude = ["sample_docs*"]    # 或者用这行排除 sample_docs（二选一即可）
-
+# 当前项目自身的信息
 [project]
+
+# pip 中的项目名称
 name = "document-statistics-cli"
+
 version = "0.1.0"
+
 description = "A CLI tool for document statistics"
 
+# 需要 Python 3.11 或更高
+requires-python = ">=3.11"
 
+
+# pytest 配置
 [tool.pytest.ini_options]
-pythonpath = [
-    "."
-]
+
+# 测试时把当前项目根目录加入 Python 搜索路径
+pythonpath = ["."]
+
+# pytest 默认只扫描 tests 目录
+testpaths = ["tests"]

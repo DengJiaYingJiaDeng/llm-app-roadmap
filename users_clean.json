@@ -1,0 +1,37 @@
+[
+  {
+    "user_id":101,
+    "name":"Alice",
+    "age":23,
+    "city":"Shanghai",
+    "score":88.5
+  },
+  {
+    "user_id":102,
+    "name":"Bob",
+    "age":31,
+    "city":"Beijing",
+    "score":92.0
+  },
+  {
+    "user_id":103,
+    "name":"Charlie",
+    "age":27,
+    "city":"Shanghai",
+    "score":76.5
+  },
+  {
+    "user_id":106,
+    "name":"Eve",
+    "age":null,
+    "city":"Unknown",
+    "score":90.5
+  },
+  {
+    "user_id":107,
+    "name":"Frank",
+    "age":29,
+    "city":"Beijing",
+    "score":81.0
+  }
+]

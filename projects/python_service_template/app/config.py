@@ -1,6 +1,8 @@
 # 专门用来读取环境变量 + .env配置文件
 from pydantic_settings import BaseSettings,SettingsConfigDict
 
+
+
 #定义配置类Setting，继承BaseSettings
 class Settings(
     BaseSettings

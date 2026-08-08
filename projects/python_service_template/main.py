@@ -27,7 +27,7 @@ def main():
     print(doc)
 
     try:
-        result = get_document("abc")
+        result = get_document(-1)
 
         print(result)
 

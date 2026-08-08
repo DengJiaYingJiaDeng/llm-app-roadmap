@@ -7,3 +7,13 @@ Java：    List<String> list = new ArrayList<>();
         
 Python:    items = []
            items.append("Python")
+
+3.Exception:
+Java:   try{
+
+        }catch(Exception e){
+
+        }
+
+Python: try:
+        except Exception:
