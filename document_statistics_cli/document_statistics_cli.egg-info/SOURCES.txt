@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+doc_stats/__init__.py
+doc_stats/analyzer.py
+doc_stats/config.py
+doc_stats/exceptions.py
+doc_stats/logger.py
+doc_stats/report.py
+document_statistics_cli.egg-info/PKG-INFO
+document_statistics_cli.egg-info/SOURCES.txt
+document_statistics_cli.egg-info/dependency_links.txt
+document_statistics_cli.egg-info/top_level.txt
+tests/test_analyzer.py
+tests/test_report.py

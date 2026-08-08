@@ -1,0 +1,5 @@
+Git tracks source code changes.
+
+Git supports branches and commits.
+
+Python supports simple syntax and rich libraries.

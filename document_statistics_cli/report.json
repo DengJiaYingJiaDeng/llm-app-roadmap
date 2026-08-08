@@ -1,0 +1,141 @@
+{
+  "summary": {
+    "total_files": 3,
+    "total_characters": 388,
+    "total_words": 53,
+    "total_lines": 15,
+    "total_paragraphs": 9
+  },
+  "top_words": [
+    {
+      "word": "and",
+      "count": 4
+    },
+    {
+      "word": "supports",
+      "count": 3
+    },
+    {
+      "word": "python",
+      "count": 3
+    },
+    {
+      "word": "git",
+      "count": 2
+    },
+    {
+      "word": "simple",
+      "count": 2
+    },
+    {
+      "word": "syntax",
+      "count": 2
+    },
+    {
+      "word": "rich",
+      "count": 2
+    },
+    {
+      "word": "libraries",
+      "count": 2
+    },
+    {
+      "word": "linux",
+      "count": 2
+    },
+    {
+      "word": "for",
+      "count": 2
+    }
+  ],
+  "duplicate_paragraphs": [
+    {
+      "paragraph": "Python supports simple syntax and rich libraries.",
+      "count": 2,
+      "files": [
+        "sample_docs/git.txt",
+        "sample_docs/python.txt"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "file": "sample_docs/git.txt",
+      "characters": 119,
+      "non_whitespace_characters": 100,
+      "lines": 5,
+      "words": 17,
+      "paragraphs": 3,
+      "word_frequency": {
+        "git": 2,
+        "tracks": 1,
+        "source": 1,
+        "code": 1,
+        "changes": 1,
+        "supports": 2,
+        "branches": 1,
+        "and": 2,
+        "commits": 1,
+        "python": 1,
+        "simple": 1,
+        "syntax": 1,
+        "rich": 1,
+        "libraries": 1
+      }
+    },
+    {
+      "file": "sample_docs/linux.md",
+      "characters": 111,
+      "non_whitespace_characters": 92,
+      "lines": 5,
+      "words": 16,
+      "paragraphs": 3,
+      "word_frequency": {
+        "linux": 2,
+        "notes": 1,
+        "provides": 1,
+        "commands": 1,
+        "for": 1,
+        "files": 1,
+        "and": 1,
+        "processes": 1,
+        "ssh": 1,
+        "allows": 1,
+        "remote": 1,
+        "access": 1,
+        "to": 1,
+        "another": 1,
+        "computer": 1
+      }
+    },
+    {
+      "file": "sample_docs/python.txt",
+      "characters": 158,
+      "non_whitespace_characters": 136,
+      "lines": 5,
+      "words": 20,
+      "paragraphs": 3,
+      "word_frequency": {
+        "python": 2,
+        "is": 1,
+        "useful": 1,
+        "for": 1,
+        "ai": 1,
+        "application": 1,
+        "development": 1,
+        "supports": 1,
+        "simple": 1,
+        "syntax": 1,
+        "and": 1,
+        "rich": 1,
+        "libraries": 1,
+        "virtual": 1,
+        "environments": 1,
+        "keep": 1,
+        "project": 1,
+        "dependencies": 1,
+        "isolated": 1
+      }
+    }
+  ]
+}

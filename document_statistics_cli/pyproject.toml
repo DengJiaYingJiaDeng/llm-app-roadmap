@@ -1,0 +1,21 @@
+[build-system]
+requires = [
+    "setuptools>=61"
+]
+build-backend = "setuptools.build_meta"
+
+
+[tool.setuptools.packages.find]
+include = ["doc_stats*"]        # 只打包 doc_stats 及其子包（如果有）
+# exclude = ["sample_docs*"]    # 或者用这行排除 sample_docs（二选一即可）
+
+[project]
+name = "document-statistics-cli"
+version = "0.1.0"
+description = "A CLI tool for document statistics"
+
+
+[tool.pytest.ini_options]
+pythonpath = [
+    "."
+]
