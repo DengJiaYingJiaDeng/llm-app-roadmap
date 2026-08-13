@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: day012-springboot-crud
+
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/ai_app}
+    username: ${DB_USER:aiuser}
+    password: ${DB_PASSWORD}
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+
+  configuration:
+    map-underscore-to-camel-case: true

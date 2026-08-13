@@ -1,0 +1,10 @@
+/home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/Day012Application.java
+/home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/controller/DocumentController.java
+/home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/dto/ApiResponse.java
+/home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/dto/DocumentCreateRequest.java
+/home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/dto/DocumentUpdateRequest.java
+/home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/exception/GlobalExceptionHandler.java
+/home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/exception/ResourceNotFoundException.java
+/home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/mapper/DocumentMapper.java
+/home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/model/Document.java
+/home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/service/DocumentService.java

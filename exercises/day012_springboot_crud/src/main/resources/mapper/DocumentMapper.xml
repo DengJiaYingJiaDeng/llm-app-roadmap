@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.day012.mapper.DocumentMapper">
+
+    <insert id="insert"
+            parameterType="com.example.day012.model.Document"
+            useGeneratedKeys="true"
+            keyProperty="id"
+            keyColumn="id">
+
+        INSERT INTO documents (
+            user_id,
+            title,
+            content
+        )
+        VALUES (
+            #{userId},
+            #{title},
+            #{content}
+        )
+
+    </insert>
+
+
+    <select id="findAll"
+            resultType="com.example.day012.model.Document">
+
+        SELECT
+            id,
+            user_id,
+            title,
+            content,
+            created_at
+        FROM documents
+        ORDER BY id
+
+    </select>
+
+
+    <select id="findById"
+            resultType="com.example.day012.model.Document">
+
+        SELECT
+            id,
+            user_id,
+            title,
+            content,
+            created_at
+        FROM documents
+        WHERE id = #{id}
+
+    </select>
+
+
+    <update id="update"
+            parameterType="com.example.day012.model.Document">
+
+        UPDATE documents
+        SET
+            title = #{title},
+            content = #{content}
+        WHERE id = #{id}
+
+    </update>
+
+
+    <delete id="deleteById">
+
+        DELETE FROM documents
+        WHERE id = #{id}
+
+    </delete>
+
+</mapper>
