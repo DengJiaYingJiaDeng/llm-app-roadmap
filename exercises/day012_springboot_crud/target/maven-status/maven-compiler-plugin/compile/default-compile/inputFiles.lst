@@ -1,4 +1,5 @@
 /home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/Day012Application.java
+/home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/config/AiClientConfig.java
 /home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/controller/DocumentController.java
 /home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/dto/ApiResponse.java
 /home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/dto/DocumentCreateRequest.java
@@ -9,3 +10,10 @@
 /home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/mapper/DocumentMapper.java
 /home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/model/Document.java
 /home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/service/DocumentService.java
+/home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/task/AiServiceException.java
+/home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/task/AiTaskRequest.java
+/home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/task/AiTaskResponse.java
+/home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/task/TaskController.java
+/home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/task/TaskCreateRequest.java
+/home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/task/TaskResult.java
+/home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/task/TaskService.java

@@ -2,6 +2,8 @@ from fastapi import FastAPI
 
 from app.routes.documents import router as documents_router
 
+from app.routes.ai_tasks import router as ai_tasks_router
+
 
 app = FastAPI(
     title="Day011 Document CRUD API",
@@ -17,3 +19,6 @@ def health():
 
 #把定义好的文档 CRUD 接口（/documents、/documents/{id} 等）挂载到主应用上
 app.include_router(documents_router)
+
+app.include_router(documents_router)
+app.include_router(ai_tasks_router)

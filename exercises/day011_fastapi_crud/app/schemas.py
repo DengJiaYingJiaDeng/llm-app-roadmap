@@ -17,3 +17,13 @@ class DocumentOut(BaseModel):
     title:str
     content:str | None
     created_at:datetime
+
+class AiTaskRequest(BaseModel):
+    taskId:str = Field(min_length=1)
+    prompt:str = Field(min_length=1,max_length=1000)
+
+class AiTaskResponse(BaseModel):
+    requestId: str
+    taskId: str
+    status: str
+    result: str

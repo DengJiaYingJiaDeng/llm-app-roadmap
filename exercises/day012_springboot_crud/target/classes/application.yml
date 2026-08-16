@@ -15,3 +15,7 @@ mybatis:
 
   configuration:
     map-underscore-to-camel-case: true
+
+ai:
+  service:
+    base-url: ${AI_SERVICE_BASE_URL:http://127.0.0.1:8000}
