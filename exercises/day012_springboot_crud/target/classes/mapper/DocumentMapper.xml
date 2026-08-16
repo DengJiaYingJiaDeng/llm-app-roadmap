@@ -75,4 +75,10 @@
 
     </delete>
 
+    <select id = "countByUserIdAndTitle" resultType="int">
+        SELECT COUNT(*)
+        FROM documents
+        WHERE user_id = #{userId}
+            AND title = #{title}
+    </select>
 </mapper>

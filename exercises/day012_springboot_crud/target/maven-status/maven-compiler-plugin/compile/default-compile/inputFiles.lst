@@ -3,6 +3,7 @@
 /home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/dto/ApiResponse.java
 /home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/dto/DocumentCreateRequest.java
 /home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/dto/DocumentUpdateRequest.java
+/home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/exception/DuplicateDocumentException.java
 /home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/exception/GlobalExceptionHandler.java
 /home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/exception/ResourceNotFoundException.java
 /home/aiot/djy/IT_learn/llm-app-roadmap/exercises/day012_springboot_crud/src/main/java/com/example/day012/mapper/DocumentMapper.java

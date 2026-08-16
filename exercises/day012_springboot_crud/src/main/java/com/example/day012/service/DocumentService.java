@@ -5,6 +5,7 @@ import com.example.day012.dto.DocumentUpdateRequest;
 import com.example.day012.exception.ResourceNotFoundException;
 import com.example.day012.mapper.DocumentMapper;
 import com.example.day012.model.Document;
+import com.example.day012.exception.DuplicateDocumentException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -22,6 +23,12 @@ public class DocumentService {
 
     @Transactional
     public Document create(DocumentCreateRequest request) {
+
+        int count =
+                documentMapper.countByUserIdAndTitle(request.userId(), request.title());
+        if(count > 0){
+            throw new DuplicateDocumentException("document already exists");
+        }
 
         Document document = new Document();
 

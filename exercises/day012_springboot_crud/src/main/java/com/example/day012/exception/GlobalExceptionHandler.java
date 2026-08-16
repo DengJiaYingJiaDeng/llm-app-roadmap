@@ -7,6 +7,7 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
+import org.springframework.http.HttpStatus;
 
 @RestControllerAdvice
 public class GlobalExceptionHandler {
@@ -51,4 +52,12 @@ public class GlobalExceptionHandler {
                 "invalid data: database constraint violation"
         );
     }
+
+    @ExceptionHandler(DuplicateDocumentException.class)
+    @ResponseStatus(HttpStatus.CONFLICT)
+    public ApiResponse<Void> handleDuplicate(
+                DuplicateDocumentException exception
+    ){
+        return ApiResponse.error(exception.getMessage());
+    } 
 }
